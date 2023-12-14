@@ -1,0 +1,41 @@
+Gene	Aminoacid position	Reference aminoacid	AA_alt	Gene-family alignment position	Evidence_from_paralogs
+RYR2	2315	Glu	Ala	2376	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR3	4690	Asn	Ser	4916	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
+RYR3	2461	Ala	Glu	2626	None
+RYR3	1713	Pro	Gln	1852	None
+RYR3	1369	Val	Met	1496	None
+RYR3	3137	Met	Ile	3305	None
+RYR3	748	Leu	Pro	770	None
+RYR3	3489	Ala	Pro	3675	None
+RYR2	788	Phe	Phe	797	None
+RYR2	4849	Thr	Ile	4978	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
+RYR3	3309	Lys	Glu	3481	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR1	2322	Gly	Tyr	2350	None
+RYR2	1260	Gln	Gln	1269	None
+RYR3	4657	Arg	Glu	4883	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR3	1807	Met	Ile	1962	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR3	2203	Val	Thr	2367	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR2	3422	Gln	Pro	3490	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
+RYR3	2730	Arg	Tyr	2898	None
+RYR3	2800	Arg	Pro	2968	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR1	159	Gly	Tyr	174	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR3	4558	Val	His	4782	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR3	861	Leu	Met	883	None
+RYR3	2981	Thr	Gln	3149	None
+RYR3	4089	Cys	Ser	4278	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR2	3925	Gln	Lys	4010	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
+RYR2	2392	Tyr	Tyr	2454	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR3	1100	Arg	Glu	1123	None
+RYR3	2068	Thr	Met	2231	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
+RYR3	368	Ala	Thr	381	None
+RYR3	4628	Tyr	Leu	4854	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR2	3864	Asn	Gln	3949	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR3	3067	Leu	Ala	3235	None
+RYR2	2321	Val	Ala	2382	Paralogous pathogenic variant at same position with a different amino acid substiution (para-PM5)
+RYR3	4575	Leu	His	4799	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
+RYR3	1991	Asp	Glu	2154	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
+RYR3	3895	Met	Thr	4084	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
+RYR3	4652	Gly	Trp	4878	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
+RYR2	2501	Ser	Thr	2563	None
+RYR1	1622	Arg	Glu	1645	None
+RYR2	189	Glu	Asp	191	Paralogous pathogenic variant at same position with the same amino acid substiution (para-PS1)
