@@ -1,5 +1,5 @@
-#14.12.2023
-#The script considered a pre generated alignment file of a gene family of the user's choice as well as a custom set of pathogenic variants observed in genes of the selected gene family. Based on the alignment file and the list of pathogenic variants the script generates an output table where listing all protein residues where para-PS1/PM5 criteria could be applied when a novel variant is observed.  
+#03.20.2025
+#The script considered a pre generated alignment file of a gene family of the user's choice as well as a custom set of pathogenic variants observed in genes of the selected gene family. Based on the alignment file and the list of pathogenic variants the script generates an output table where listing all protein residues where paraDIFF/SAME criteria could be applied when a novel variant is observed.  
 
 #Load required packages 
 library(tidyverse)
@@ -45,9 +45,9 @@ process_aln <- function(name,gene_fam_select.df, i){
 #Load your set of pathogenic variants in the gene family of interest 
 pathogenic_variants.df <- read_delim("Annotate_paralogous_pathogenic_variants/Input_Pathogenic_variants_example.txt",delim = "\t")
 
-gene_fam_select.df <- read_delim("Annotate_paralogous_pathogenic_variants/Input_Gene_famlily_alignment_example.stats", delim = "\t",col_types = cols(Adj_bin_count = "d",DM_adj_bin_count = "d",proxy = "c",`per.tag` = "c"))
+gene_fam_select.df <- read_delim("Annotate_paralogous_pathogenic_variants/Input_Gene_famlily_alignment_example.stats", delim = "\t")
 
-gene_index <- 2:(which(colnames(gene_fam_select.df) == "Parazscore")-1)
+gene_index <- 2:ncol(gene_fam_select.df)
 
 all_aln.df <- tibble()
 for(gene_i in gene_index){
@@ -85,6 +85,6 @@ all_aln.df %>%
     `Reference aminoacid` = "AA_ref",
     `Gene-family alignment position` = "Aln_pos",
     `Paralogous pathogenic variants at same alignment position` = "ID"
-  ) %>% 
+  ) %>% View()
   write_delim("Annotate_paralogous_pathogenic_variants/Output_Annotated_alignment_example.txt",delim = "\t")
 

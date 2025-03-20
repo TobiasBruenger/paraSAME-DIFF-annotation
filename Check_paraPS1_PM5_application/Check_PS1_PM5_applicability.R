@@ -1,4 +1,4 @@
-#14.12.2023
+#03.20.2025
 #The script considers the output table generated with "Annotate_paralogous_variants.R" script together with a list of novel variants. The script checks for which of those variants one/mutiple paralogous pathogenic variants are present.
 
 #Load required packages 
